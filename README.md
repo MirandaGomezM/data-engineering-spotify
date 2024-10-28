@@ -136,6 +136,7 @@ Se creó un tablero en Looker para visualizar los datos transformados. El tabler
 ![BQ](img/bq.png)
 
 5. **Tablero en Looker**
+
 Página 1: Top Songs
 En esta sección se presenta la canción más reproducida junto con el ranking de las canciones más populares. Los gráficos incluyen:
 - Gráfico de barras vertical: muestra la distribución de canciones según el año de lanzamiento.
