@@ -10,7 +10,7 @@ Este proyecto utiliza **Apache Airflow** dockerizado para automatizar la extracc
 4. [Configuración y Entorno](#configuración-y-entorno)
 5. [Extracción de Datos con Airflow](#extracción-de-datos-con-airflow)
 6. [Transformación de Datos con Pandas](#transformación-de-datos-con-pandas)
-7. [Cargas de Datos en BigQuery](#cargas-de-datos-en-bigquery)
+7. [Cargas de Datos en BigQuery](#carga-de-datos-en-bigquery)
 8. [Visualización en Looker](#visualización-en-looker)
 9. [Capturas de Pantalla](#capturas-de-pantalla)
 10. [Conclusiones](#conclusiones)
@@ -41,7 +41,7 @@ La arquitectura del proyecto sigue el flujo de ETL (Extracción, Transformación
 3. **Carga**: Se cargan los datos transformados nuevamente en BigQuery, listos para el análisis en Looker.
 
 **Diagrama de Arquitectura:**
-![Diagrama](img\Diagrama_arquitactura.png)
+![Diagrama](img/Diagrama_arquitactura.png)
 
 ### Configuración y Entorno
 
@@ -125,11 +125,11 @@ Se creó un tablero en Looker para visualizar los datos transformados. El tabler
 ### Capturas de Pantalla
 
 1. **DAGs en Airflow**
-![DAGs_en_airflow](img\DAG.png)
-![DAG_detalles](img\DAG_Detalles.png)
+![DAGs_en_airflow](img/DAG.png)
+![DAG_detalles](img/DAG_Detalles.png)
 
 2. **Notebook de Transformación en Pandas**
-![Notebook_pandas](img\Notebook_pandas.png)
+![Notebook_pandas](img/Notebook_pandas.png)
 
 3. **Tablero en Looker**
 Página 1: Top Songs
@@ -138,7 +138,7 @@ En esta sección se presenta la canción más reproducida junto con el ranking d
 - Gráfico de dispersión de popularidad: visualiza la popularidad normalizada de las canciones y las clasifica en distintas categorías. Categorías de Popularidad: 1 = Muy alta, 2 = Alta, 3 = Media.
 - Gráfico de torta: analiza el porcentaje de canciones explícitas versus no explícitas.
 - Gráfico de barras: compara la popularidad por artista, incluyendo una barra que indica el promedio general.
-![Top_Songs](img\Top_Songs.png)
+![Top_Songs](img/Top_Songs.png)
 
 Página 2: Top Artists
 Esta sección presenta información sobre los artistas más escuchados, incluyendo:
@@ -148,13 +148,13 @@ Artista más escuchado: destaca al artista con mayor número de reproducciones.
 - Gráfico de barras: ilustra el porcentaje de géneros más escuchados según cada artista.
 - Gráfico de dispersión: analiza la relación entre la popularidad de los artistas y su número de seguidores.
 - Gráfico de burbujas: representa la relación entre la popularidad de los artistas y la cantidad de géneros que interpretan.
-![Top_Artists](img\Top_Artists.png)
+![Top_Artists](img/Top_Artists.png)
 
 Página 3: Top global 50 Argentina
 En esta sección se presenta:
 - Top 50: un listado de las 50 canciones más populares en Argentina.
 - Top 3 canciones más populares: destaca las tres canciones que han alcanzado mayor popularidad en el país.
-![Top_Global](img\Top_global_50_Argentina.png)
+![Top_Global](img/Top_global_50_Argentina.png)
 
 ### Conclusiones
 
