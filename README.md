@@ -131,7 +131,10 @@ Se creó un tablero en Looker para visualizar los datos transformados. El tabler
 2. **Notebook de Transformación en Pandas**
 ![Notebook_pandas](img/Notebook_pandas.png)
 
-3. **Tablero en Looker**
+3. **BigQuery**
+![BQ](img/bq.png)
+
+5. **Tablero en Looker**
 Página 1: Top Songs
 En esta sección se presenta la canción más reproducida junto con el ranking de las canciones más populares. Los gráficos incluyen:
 - Gráfico de barras vertical: muestra la distribución de canciones según el año de lanzamiento.
