@@ -133,6 +133,7 @@ Se creó un tablero en Looker para visualizar los datos transformados. El tabler
 
 3. **BigQuery**
 ![BQ](img/bq.png)
+![BQ_tablas](img/bq_tablas.png)
 
 5. **Tablero en Looker**
 Página 1: Top Songs
