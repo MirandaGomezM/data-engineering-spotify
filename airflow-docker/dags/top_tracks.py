@@ -134,7 +134,7 @@ dag = DAG(
     'spotify_top_tracks_bigquery',
     default_args=default_args,
     description='DAG para guardar las canciones más escuchadas de Spotify en BigQuery',
-    schedule_interval='0 10 * * *',  # A las 10 AM todos los días
+    schedule_interval='0 13 * * *',  # A las 10 AM todos los días
 )
 
 # Crear las tareas
